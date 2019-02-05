@@ -1,0 +1,115 @@
+body {
+	background-color: #000;
+	color: #fff;
+	font-size: 18px;
+}
+
+p {
+	text-indent: 8%;
+}
+
+.frame {
+	margin: 0 4% 0 4%;
+}
+
+.main {
+	background-image: url("img/architects1.png");
+	max-height: 500px;
+	height: 40vw;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: contain;
+	background-color: #000;
+	padding: unset;
+	margin: unset;
+}
+
+.g1 {
+	vertical-align: top;
+}
+
+.g {
+	vertical-align: bottom;
+}
+
+.parralax {
+	background-image: url(img/p1.jpg);
+	max-height: 750px;
+	height: 100vw;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-color: #000;
+	margin: 5% 0% 5% 0%;
+}
+
+.pad {
+	padding-top: 15%;
+}
+
+.b1 {
+	background-color: #A9A9A9;
+	border: 10px solid #A9A9A9;
+}
+
+.to {
+	max-height: 350px;
+	max-width: 350px;
+	border: 10px solid #A9A9A9;
+	margin: auto;    
+    display: block;
+}
+
+.tom {
+	padding-bottom: 3%;
+}
+
+.here {
+	max-width: 290px;
+	max-height: 290px;
+	border: 10px solid #A9A9A9;
+}
+
+.img2 {
+	padding-top: 30%;
+}
+
+.g2 {
+	display: none;
+}
+
+@media only screen and (max-width: 950px) and (min-width: 768px)  {
+  	.here {
+		max-width: 220px;
+		max-height: 220px;
+	}
+}
+
+@media only screen and (max-width:767px) {	
+	.g {
+		float: right;
+  		margin-left: auto;
+  		margin-right: auto;
+  		width: 48%;
+	}
+
+	.g1 {
+		float: right;
+  		margin-left: auto;
+  		margin-right: auto;
+  		width: 48%;
+	}
+
+	.g2 {
+		display: inline;
+		float: left;
+  		margin-left: auto;
+  		margin-right: auto;
+		width: 48%;
+	}
+
+	td {
+		display: block;
+	}
+}
