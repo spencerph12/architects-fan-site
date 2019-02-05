@@ -81,8 +81,8 @@ p {
 
 @media only screen and (max-width: 950px) and (min-width: 768px)  {
   	.here {
-		max-width: 220px;
-		max-height: 220px;
+		max-width: 230px;
+		max-height: 230px;
 	}
 }
 
@@ -112,4 +112,23 @@ p {
 	td {
 		display: block;
 	}
+
+	.parralax h1 {
+		font-size: 26px;
+	}
+
+	.main {
+		background-attachment: unset;
+		background-size: cover;
+	}
+
+	.parralax {
+		background-attachment: unset;
+	}
+
+	.to {
+		max-height: 230px;
+	}
+}
+
 }
