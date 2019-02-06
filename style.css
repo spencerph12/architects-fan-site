@@ -58,7 +58,7 @@ p {
 	max-width: 350px;
 	border: 10px solid #A9A9A9;
 	margin: auto;    
-    display: block;
+   	display: block;
 }
 
 .tom {
@@ -129,6 +129,4 @@ p {
 	.to {
 		max-height: 230px;
 	}
-}
-
 }
