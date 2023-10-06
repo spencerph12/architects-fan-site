@@ -15,7 +15,7 @@ p {
 
 .main {
 	background-image: url("img/newTestImage.png");
-	max-height: 500px;
+	
 	height: 40vw;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -34,7 +34,7 @@ p {
 }
 
 .parralax {
-	background-image: url(img/bridgePhotoTakenFromACesna182.jpg);
+	background-image: url("img/bridgePhotoTakenFromACesna182.jpg");
 	max-height: 750px;
 	height: 100vw;
 	background-attachment: fixed;
